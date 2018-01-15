@@ -16,6 +16,6 @@ public class SomeY {
     }
     
     public static func shouldGreet() -> Result<String> {
-        return Result.success("Greetings!")
+        return Result.success("Greetings Y!")
     }
 }

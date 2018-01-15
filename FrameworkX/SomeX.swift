@@ -14,4 +14,8 @@ public class SomeX {
     public static func greetX() {
         Printer.print("Greetings X!")
     }
+    
+    public static func shouldGreet() -> Result<String> {
+        return Result.success("Greetings X!")
+    }
 }
