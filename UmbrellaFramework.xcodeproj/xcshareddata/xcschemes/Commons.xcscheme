@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8FD467792009278800466968"
-               BuildableName = "Components"
-               BlueprintName = "Components"
+               BlueprintIdentifier = "8FB1184C200CD0AB00E13459"
+               BuildableName = "Commons.framework"
+               BlueprintName = "Commons"
                ReferencedContainer = "container:UmbrellaFramework.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,7 +28,26 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8FB11854200CD0AC00E13459"
+               BuildableName = "CommonsTests.xctest"
+               BlueprintName = "CommonsTests"
+               ReferencedContainer = "container:UmbrellaFramework.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "8FB1184C200CD0AB00E13459"
+            BuildableName = "Commons.framework"
+            BlueprintName = "Commons"
+            ReferencedContainer = "container:UmbrellaFramework.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -45,9 +64,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8FD467792009278800466968"
-            BuildableName = "Components"
-            BlueprintName = "Components"
+            BlueprintIdentifier = "8FB1184C200CD0AB00E13459"
+            BuildableName = "Commons.framework"
+            BlueprintName = "Commons"
             ReferencedContainer = "container:UmbrellaFramework.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -63,9 +82,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8FD467792009278800466968"
-            BuildableName = "Components"
-            BlueprintName = "Components"
+            BlueprintIdentifier = "8FB1184C200CD0AB00E13459"
+            BuildableName = "Commons.framework"
+            BlueprintName = "Commons"
             ReferencedContainer = "container:UmbrellaFramework.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
