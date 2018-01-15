@@ -106,6 +106,7 @@
 		8FB1185A200CD0AC00E13459 /* CommonsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonsTests.swift; sourceTree = "<group>"; };
 		8FB1185C200CD0AC00E13459 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8FB11864200CD0BA00E13459 /* Printer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Printer.swift; sourceTree = "<group>"; };
+		8FB1186D200CE90800E13459 /* UmbrellaFramework.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = UmbrellaFramework.podspec; sourceTree = "<group>"; };
 		8FD467462009271C00466968 /* FrameworkX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FrameworkX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FD467482009271D00466968 /* FrameworkX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FrameworkX.h; sourceTree = "<group>"; };
 		8FD467492009271D00466968 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -188,9 +189,18 @@
 			path = CommonsTests;
 			sourceTree = "<group>";
 		};
+		8FB1186C200CE8F900E13459 /* Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				8FB1186D200CE90800E13459 /* UmbrellaFramework.podspec */,
+			);
+			name = Metadata;
+			sourceTree = "<group>";
+		};
 		8FD4671D2009271000466968 = {
 			isa = PBXGroup;
 			children = (
+				8FB1186C200CE8F900E13459 /* Metadata */,
 				8FD467472009271D00466968 /* FrameworkX */,
 				8FD467522009271D00466968 /* FrameworkXTests */,
 				8FD467632009272300466968 /* FrameworkY */,
