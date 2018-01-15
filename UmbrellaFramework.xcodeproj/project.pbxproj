@@ -35,6 +35,7 @@
 		8FD4676B2009272300466968 /* FrameworkY.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FD467622009272300466968 /* FrameworkY.framework */; };
 		8FD467702009272300466968 /* FrameworkYTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD4676F2009272300466968 /* FrameworkYTests.swift */; };
 		8FD467722009272300466968 /* FrameworkY.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FD467642009272300466968 /* FrameworkY.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FDAE302200D063100B3B1DE /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDAE301200D063100B3B1DE /* Result.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -119,6 +120,7 @@
 		8FD4676A2009272300466968 /* FrameworkYTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrameworkYTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FD4676F2009272300466968 /* FrameworkYTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkYTests.swift; sourceTree = "<group>"; };
 		8FD467712009272300466968 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FDAE301200D063100B3B1DE /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +178,7 @@
 				8FB1184F200CD0AC00E13459 /* Commons.h */,
 				8FB11850200CD0AC00E13459 /* Info.plist */,
 				8FB11864200CD0BA00E13459 /* Printer.swift */,
+				8FDAE301200D063100B3B1DE /* Result.swift */,
 			);
 			path = Commons;
 			sourceTree = "<group>";
@@ -525,6 +528,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FDAE302200D063100B3B1DE /* Result.swift in Sources */,
 				8FB11865200CD0BA00E13459 /* Printer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -943,6 +947,7 @@
 				8FB1185F200CD0AC00E13459 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8FB11863200CD0AC00E13459 /* Build configuration list for PBXNativeTarget "CommonsTests" */ = {
 			isa = XCConfigurationList;
@@ -951,6 +956,7 @@
 				8FB11861200CD0AC00E13459 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8FD467212009271000466968 /* Build configuration list for PBXProject "UmbrellaFramework" */ = {
 			isa = XCConfigurationList;
