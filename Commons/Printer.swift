@@ -10,6 +10,6 @@ import Foundation
 
 public class Printer {
     public static func print(_ string: String) {
-        print("[Printer] \(string)")
+        Swift.print("[Printer] \(string)")
     }
 }
