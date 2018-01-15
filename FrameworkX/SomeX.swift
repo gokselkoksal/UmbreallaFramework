@@ -7,10 +7,11 @@
 //
 
 import Foundation
+import Commons
 
-class SomeX {
+public class SomeX {
     
-    static func greetX() {
-        print("Greetings X!")
+    public static func greetX() {
+        Printer.print("Greetings X!")
     }
 }

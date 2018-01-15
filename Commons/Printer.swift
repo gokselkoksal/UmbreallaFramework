@@ -1,5 +1,5 @@
 //
-//  SomeY.swift
+//  Printer.swift
 //  UmbrellaFramework
 //
 //  Created by Goksel Koksal on 15/01/2018.
@@ -7,11 +7,9 @@
 //
 
 import Foundation
-import Commons
 
-public class SomeY {
-    
-    public static func greetY() {
-        Printer.print("Greetings Y!")
+public class Printer {
+    public static func print(_ string: String) {
+        print("[Printer] \(string)")
     }
 }
